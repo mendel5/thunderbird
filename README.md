@@ -9,6 +9,8 @@ How to configure Mozilla Thunderbird
 ### Default sorting
 Change the default sort order to "Date" with the newest e-mails on top (descending)
 ```
+mailnews.default
+
 mailnews.default_news_sort_order
 to 2
 
@@ -72,4 +74,4 @@ Links:
 
 
 ## Other
-File --> Subscribe
+`File` --> `Subscribe`
