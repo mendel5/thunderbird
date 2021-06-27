@@ -34,7 +34,7 @@ Links:
 - http://kb.mozillazine.org/How_do_I_check_for_new_messages_in_other_folders
 
 ### Check all folders
-Check all folders for new messages (necessary when e-mails are sorted based on the server):
+Check all folders for new messages (necessary when e-mails are sorted into multiple folders based on server-side rules):
 ```
 mail.server.default.check_all_folders_for_new
 to true
