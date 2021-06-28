@@ -64,8 +64,8 @@ Links:
 - https://www.thunderbird-mail.de/lexicon/entry/240-security-tls-version/
 - https://www.privacy-handbuch.de/handbuch_31k.htm
 - https://www.heise.de/news/IETF-erklaert-TLS-Urvaeter-1-0-und-1-1-als-veraltet-5997963.html
-- https://datatracker.ietf.org/doc/rfc8996/
 - https://datatracker.ietf.org/doc/rfc7568/
+- https://datatracker.ietf.org/doc/rfc8996/
 
 ## Addons
 - https://addons.thunderbird.net/en-US/thunderbird/addon/xpunge/
