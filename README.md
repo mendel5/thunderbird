@@ -7,7 +7,7 @@ How to configure Mozilla Thunderbird
 `Edit` --> `Preferences` --> `General` --> Scroll to bottom --> `Config Editor`
 
 ### Default sorting
-Change the default sort order to "Date" with the newest e-mails on top (descending)
+Change the default sort order to "Date" with the newest emails on top (descending)
 ```
 mailnews.default
 
@@ -34,7 +34,7 @@ Links:
 - http://kb.mozillazine.org/How_do_I_check_for_new_messages_in_other_folders
 
 ### Check all folders
-Check all folders for new messages (necessary when e-mails are sorted into multiple folders based on server-side rules):
+Check all folders for new messages (necessary when emails are sorted into multiple folders based on server-side rules):
 ```
 mail.server.default.check_all_folders_for_new
 to true
@@ -66,6 +66,18 @@ Links:
 - https://www.heise.de/news/IETF-erklaert-TLS-Urvaeter-1-0-und-1-1-als-veraltet-5997963.html
 - https://datatracker.ietf.org/doc/rfc7568/
 - https://datatracker.ietf.org/doc/rfc8996/
+
+### Names instead of "Me"
+In the standard configuration of Thunderbird, the name in emails sent to or from yourself are sometimes displayed as "Me" instead of the actual name. This can be changed to show the actual name:
+
+`Edit` --> `Preferences` --> `General` --> scroll down to `Reading & Display`:
+```
+Display name: Show only display name for people in my address book
+to false (Uncheck the checkbox)
+```
+
+Links:
+- https://support.mozilla.org/en-US/kb/names-bug-no-email-addresses-are-displayed
 
 ## Addons
 - https://addons.thunderbird.net/en-US/thunderbird/addon/xpunge/
