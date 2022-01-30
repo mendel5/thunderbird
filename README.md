@@ -31,7 +31,7 @@ to 0
 ```
 
 Links:
-- http://kb.mozillazine.org/How_do_I_check_for_new_messages_in_other_folders
+- https://superuser.com/questions/13518/change-the-default-sorting-order-in-thunderbird
 
 ### Check all folders
 Check all folders for new messages (necessary when emails are sorted into multiple folders based on server-side rules):
@@ -44,7 +44,7 @@ to false
 ```
 
 Links:
-- https://superuser.com/questions/13518/change-the-default-sorting-order-in-thunderbird
+- http://kb.mozillazine.org/How_do_I_check_for_new_messages_in_other_folders
 
 ### Encryption in transit
 ```
