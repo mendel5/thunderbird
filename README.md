@@ -19,6 +19,7 @@ to 18
 
 mailnews.default_news_view_flags
 to 0
+// this disables "Threaded view"
 
 mailnews.default_sort_order
 to 2
@@ -28,6 +29,7 @@ to 18
 
 mailnews.default_view_flags
 to 0
+// this disables "Threaded view"
 ```
 
 Links:
