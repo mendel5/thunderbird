@@ -34,6 +34,7 @@ to 0
 
 Links:
 - https://superuser.com/questions/13518/change-the-default-sorting-order-in-thunderbird
+- https://www.badpenguin.org/thunderbirds-default-sort/
 
 ### Check all folders
 Check all folders for new messages (necessary when emails are sorted into multiple folders based on server-side rules):
