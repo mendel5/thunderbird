@@ -1,5 +1,7 @@
 # thunderbird-how-to
-How to configure Mozilla Thunderbird
+How to configure Mozilla Thunderbird.
+
+Apply all these changes before setting up any email accounts.
 
 ## Open the config editor
 - English: `Edit` --> `Preferences` (not: `Account Settings`) --> `General` --> Scroll to bottom --> `Config Editor`
