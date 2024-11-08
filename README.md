@@ -13,7 +13,7 @@ mailnews.default
 ```
 
 ```
-For mail folders:
+For email folders:
 
 Set
 mailnews.default_sort_order
@@ -32,7 +32,7 @@ to 0.
 ```
 
 ```
-For RSS feeds and other news (whatever that might be):
+For RSS feeds and other news feeds (whatever that might be):
 
 Set
 mailnews.default_news_sort_order
@@ -120,7 +120,7 @@ How to check or change the subscription of individual folders.
 - `Datei` --> `Abonnieren`
 
 ## Folder naming
-When naming folders in an e-mail account, it is recommended to not use dots (`.`) in the folder name.
+When naming folders in an email account, it is recommended to not use dots (`.`) in the folder name.
 So instead of naming a folder `Emails from Mr. Doe` it should be named `Emails from Mr Doe`.
 
 ## Addons
