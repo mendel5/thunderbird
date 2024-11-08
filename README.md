@@ -13,7 +13,7 @@ mailnews.default
 ```
 
 ```
-For mail folders and RSS feeds:
+For mail folders:
 
 Set
 mailnews.default_sort_order
@@ -32,7 +32,7 @@ to 0.
 ```
 
 ```
-For news (whatever that is):
+For RSS feeds and other news (whatever that might be):
 
 Set
 mailnews.default_news_sort_order
