@@ -3,6 +3,10 @@ How to configure Mozilla Thunderbird.
 
 Apply all these changes before setting up any email accounts.
 
+See also / Siehe auch:
+- https://github.com/mendel5/email/
+- https://github.com/mendel5/outlook/
+
 ## Open the config editor
 - English: `Edit` --> `Preferences` (not: `Account Settings`) --> `General` --> Scroll to bottom --> `Config Editor`
 - German: `Extras` --> `Einstellungen` (nicht: `Konten-Einstellungen`) --> `Allgemein` --> Nach ganz unten scrollen --> `Konfiguration bearbeiten`
