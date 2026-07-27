@@ -125,9 +125,11 @@ How to check or change the subscription of individual folders.
 - `File` --> `Subscribe`
 - `Datei` --> `Abonnieren`
 
-## Folder naming
-When naming folders in an email account, it is recommended to not use dots (`.`) in the folder name.
-So instead of naming a folder `Emails from Mr. John Doe` it should be named `Emails from Mr John Doe`.
+## Folder names: Avoid dots
+When naming folders in an email account, it is recommended to avoid dots/periods (`.`) in the name of the folder.
+Instead of giving a folder the name `Emails from Mr. John Doe` it should be named `Emails from Mr John Doe`.
+
+The reason for this is that a dot (`.`) is commonly interpreted as a hierarchy separator in email folder names.
 
 ## Addons
 - https://addons.thunderbird.net/en-US/thunderbird/addon/xpunge/
