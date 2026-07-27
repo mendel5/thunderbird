@@ -147,7 +147,7 @@ HTML allows the sender to use different formatting options, for example bold, un
 These formatting options are very helpful when the content of an email is long and complex and requires structuring different parts of the email.
 
 For example, an email might consist of different sections and each section contains multiple paragraphs.
-Each section can have a section heading that provides the reader with a visual structure and improves readability.
+Adding a formatted section heading to each section provides the reader with a visual structure and improves readability.
 
 Links:
 - https://kb.mozillazine.org/Mail_content_types
