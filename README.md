@@ -143,7 +143,7 @@ Sending emails in a plain text format is generally preferred over sending emails
 The reason for this is that plain text emails avoid a lot of issues that HTML emails can cause.
 
 However, sometimes it's necessary to use HTML formatting in emails.
-HTML allows the sender to use different formatting options, for example **bold**, underline, *italics* or different font sizes.
+HTML allows the sender to use different formatting options, for example bold, underline, italics or different font sizes.
 These formatting options are very helpful when the content of an email is long and complex and requires structuring different parts of the email.
 
 For example, an email might consist of different sections and each section contains multiple paragraphs.
