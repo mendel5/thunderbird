@@ -120,6 +120,9 @@ to false (Uncheck the checkbox).
 Links:
 - https://support.mozilla.org/en-US/kb/names-bug-no-email-addresses-are-displayed
 
+## Email offline storage
+
+
 ## Folder subscriptions
 How to check or change the subscription of individual folders.
 - `File` --> `Subscribe`
@@ -133,6 +136,25 @@ The reason for this is that a dot (`.`) is commonly interpreted as a hierarchy s
 Examples:
 - Instead of giving a folder the name `Emails from Mr. John Doe` it should be named `Emails from Mr John Doe`.
 - Instead of giving a folder the name `Invoices, receipts, etc.` it should be named `Invoices, receipts, etc`.
+
+## HTML formatting
+### Introduction
+Sending emails in a plain text format is generally preferred over sending emails in an HTML format.
+The reason for this is that plain text emails avoid a lot of issues that HTML emails can cause.
+
+However, sometimes it's necessary to use HTML formatting in emails.
+HTML allows the sender to use different formatting options, for example **bold**, underline, *italics* or different font sizes.
+These formatting options are very helpful when the content of an email is long and complex and requires structuring different parts of the email.
+
+For example, an email might consist of different sections and each section contains multiple paragraphs.
+Each section can have a section heading that provides the reader with a visual structure and improves readability.
+
+Links:
+- https://kb.mozillazine.org/Mail_content_types
+- https://useplaintext.email/
+
+### HTML paragraph line spacing
+
 
 ## Addons
 - https://addons.thunderbird.net/en-US/thunderbird/addon/xpunge/
