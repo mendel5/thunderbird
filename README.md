@@ -146,8 +146,9 @@ However, sometimes it's necessary to use HTML formatting in emails.
 HTML allows the sender to use different formatting options, for example bold, underline, italics or different font sizes.
 These formatting options are very helpful when the content of an email is long and complex and requires structuring different parts of the email.
 
-For example, an email might consist of different sections and each section contains multiple paragraphs.
-Adding a formatted section heading to each section provides the reader with a visual structure and improves readability.
+For example, an email might consist of multiple sections and each section contains multiple paragraphs.
+Adding a formatted section heading above each section provides the reader with a visual structure and improves readability.
+Typical sections could be: Introduction, Main part (part A, part B, part C, etc.), Conclusion/Summary.
 
 Links:
 - https://kb.mozillazine.org/Mail_content_types
