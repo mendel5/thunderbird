@@ -1,4 +1,4 @@
-# thunderbird-how-to
+# thunderbird
 How to configure Mozilla Thunderbird.
 
 Apply all these changes before setting up any email accounts.
