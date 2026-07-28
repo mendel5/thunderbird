@@ -121,7 +121,7 @@ Links:
 - https://support.mozilla.org/en-US/kb/names-bug-no-email-addresses-are-displayed
 
 ## Email offline storage
-
+todo
 
 ## Folder subscriptions
 How to check or change the subscription of individual folders.
@@ -155,7 +155,7 @@ Links:
 - https://useplaintext.email/
 
 ### HTML paragraph line spacing
-
+todo
 
 ## Addons
 - https://addons.thunderbird.net/en-US/thunderbird/addon/xpunge/
