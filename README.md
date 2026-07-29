@@ -182,6 +182,9 @@ Links:
 todo
 
 ## Addons
+Tags: addons, add-ons
+
+Add-ons for Mozilla Thunderbird
 - https://addons.thunderbird.net/en-US/thunderbird/addon/xpunge/
 - https://addons.thunderbird.net/en-US/thunderbird/addon/manually-sort-folders/
 - https://addons.thunderbird.net/en-US/thunderbird/addon/removedupes/
