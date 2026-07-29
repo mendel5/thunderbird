@@ -141,13 +141,15 @@ Examples:
 ### Introduction
 Should emails be sent in a plain text format or in an HTML format?
 The answer depends on who the recipient is.
-- When communicating in a business context, it is generally preferred to send emails in an HTML format. Many business people use email clients from Microsoft (Microsoft Outlook, Microsoft 365 on the web) and when sending to these recipients/email clients it is better to use HTML.
-- When communicating with tech/IT people who might read emails in their terminal, it is preferred to send emails in a plain text format.
+- When communicating in a business context, it is generally preferred to send emails in an HTML format. Many business people use email clients from Microsoft (Microsoft Outlook, Microsoft 365 on the web) and when sending to these recipients/email clients, it is preferred to send emails in an HTML format.
+- When communicating with tech/IT people who might read emails in their terminal or who are unlikely to use Microsoft email clients, it is preferred to send emails in a plain text format.
 
-Sending emails in a plain text format can lead to issues with lines being cut after 78-80 characters in Outlook, Gmail and other email clients (see RFC 2822).
+Sending emails in a plain text format can lead to issues with line breaks after 78-80 characters in Outlook, Gmail and other email clients (see RFC 2822).
+For example, when you write a plain text email in your email client, there might be no line breaks being shown after 80 characters per line, but the recipient might still see the line breaks.
+This is very annoying, because it breaks the assumption of "what you see is what you get".
 
 Therefore, using HTML formatting in emails can have some advantages.
-HTML not only avoids the line cutting issue, it also allows the sender to use different formatting options, for example bold, underline, italics or different font sizes.
+HTML not only avoids the line break issue, it also allows the sender to use different formatting options, for example bold, underline, italics or different font sizes.
 These formatting options are very helpful when the content of an email is long and complex and requires structuring different parts of the email.
 
 For example, an email might consist of multiple sections and each section might contain multiple paragraphs.
@@ -156,6 +158,11 @@ Typical sections could be: Introduction, Main part (part A, part B, part C, etc.
 
 **Summary: Using HTML formatting in emails provides the reader with a visual structure and logical hierarchy. This improves readability and makes it easier to quickly understand the contents of an email.**
 Basically, this applies the more general question of "why to use formatting in a text" to emails.
+
+Note:
+There is a difference between (a) using or not using formatting such as bold or italics and (b) which format the email is sent in, independent of using bold, italics, etc.
+An email that is sent as plain text cannot use formatting like bold.
+An email that is sent as HTML can use formating like bold, but is does not have to. Even when not using bold formatting, sending in HTML format has the benefit of avoiding the line break issue.
 
 Links:
 - https://kb.mozillazine.org/Mail_content_types
