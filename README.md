@@ -121,7 +121,17 @@ Links:
 - https://support.mozilla.org/en-US/kb/names-bug-no-email-addresses-are-displayed
 
 ## Email offline storage
-todo
+Tags: synchronize, synchronization, offline storage, offline availability
+
+By default, Thunderbird downloads all emails in an email account so that they are available offline.
+Sometimes this is helpful, sometimes this is not helpful.
+
+The setting can be changed as follows:
+- Go to the Menu bar, click on `Tools`, click on `Account Settings`.
+- Select the email address that you want to configure (in the left pane).
+- Within that email address, go to `Synchronization & Storage`.
+- In the section `Message Synchronizing`, deactivate/uncheck the checkmark `Keep messages in all folders for this account on this computer`.
+- A pop-up asks you if you are sure about this change. Confirm the change by clicking on `Save`.
 
 ## Folder subscriptions
 How to check or change the subscription of individual folders.
