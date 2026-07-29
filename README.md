@@ -139,14 +139,18 @@ Examples:
 
 ## Formatting: Plain text and HTML
 ### Introduction
-Sending emails in a plain text format is generally preferred over sending emails in an HTML format.
-The reason for this is that plain text emails avoid a lot of issues that HTML emails can cause.
+Should emails be sent in a plain text format or in an HTML format?
+The answer depends on who the recipient is.
+- When communicating in a business context, it is generally preferred to send emails in an HTML format. Many business people use email clients from Microsoft (Microsoft Outlook, Microsoft 365 on the web) and when sending to these recipients/email clients it is better to use HTML.
+- When communicating with tech/IT people who might read emails in their terminal, it is preferred to send emails in a plain text format.
 
-However, sometimes it's necessary to use HTML formatting in emails.
-HTML allows the sender to use different formatting options, for example bold, underline, italics or different font sizes.
+Sending emails in a plain text format can lead to issues with lines being cut after 78-80 characters in Outlook, Gmail and other email clients (see RFC 2822).
+
+Therefore, using HTML formatting in emails can have some advantages.
+HTML not only avoids the line cutting issue, it also allows the sender to use different formatting options, for example bold, underline, italics or different font sizes.
 These formatting options are very helpful when the content of an email is long and complex and requires structuring different parts of the email.
 
-For example, an email might consist of multiple sections and each section contains multiple paragraphs.
+For example, an email might consist of multiple sections and each section might contain multiple paragraphs.
 Adding a formatted section heading above each section provides the reader with a visual structure and improves readability.
 Typical sections could be: Introduction, Main part (part A, part B, part C, etc.) and Conclusion/Summary.
 
@@ -155,7 +159,7 @@ Basically, this applies the more general question of "why to use formatting in a
 
 Links:
 - https://kb.mozillazine.org/Mail_content_types
-- https://useplaintext.email/
+- https://useplaintext.email/ (when sending to tech/IT people)
 
 ### HTML paragraph line spacing
 todo
