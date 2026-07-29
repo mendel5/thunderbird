@@ -148,7 +148,10 @@ These formatting options are very helpful when the content of an email is long a
 
 For example, an email might consist of multiple sections and each section contains multiple paragraphs.
 Adding a formatted section heading above each section provides the reader with a visual structure and improves readability.
-Typical sections could be: Introduction, Main part (part A, part B, part C, etc.), Conclusion/Summary.
+Typical sections could be: Introduction, Main part (part A, part B, part C, etc.) and Conclusion/Summary.
+
+**Summary: Using HTML formatting in emails provides the reader with a visual structure and logical hierarchy. This improves readability and makes it easier to quickly understand the contents of an email.**
+Basically, this applies the more general question of "why to use formatting in a text" to emails.
 
 Links:
 - https://kb.mozillazine.org/Mail_content_types
