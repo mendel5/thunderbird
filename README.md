@@ -156,7 +156,7 @@ The answer depends on who the recipient is.
 
 Sending emails in a plain text format can lead to issues with line breaks after 78-80 characters in Outlook, Gmail and other email clients (see RFC 2822).
 For example, when you write a plain text email in your email client, there might be no line breaks being shown after 80 characters per line, but the recipient might still see the line breaks.
-This is very annoying, because it breaks the assumption of "what you see is what you get".
+This is very annoying, because it breaks the assumption of "what you see is what you get" (sender and recipient should see the same thing).
 
 Therefore, using HTML formatting in emails can have some advantages.
 HTML not only avoids the line break issue, it also allows the sender to use different formatting options, for example bold, underline, italics or different font sizes.
@@ -166,23 +166,69 @@ For example, an email might consist of multiple sections and each section might 
 Adding a formatted section heading above each section provides the reader with a visual structure and improves readability.
 Typical sections could be: Introduction, Main part (part A, part B, part C, etc.) and Conclusion/Summary.
 
-**Summary: Using HTML formatting in emails provides the reader with a visual structure and logical hierarchy. This improves readability and makes it easier to quickly understand the contents of an email.**
-Basically, this applies the more general question of "why to use formatting in a text" to emails.
+**Summary**:
+- 1: Using HTML formatting (like bold) in emails provides the reader with a visual structure and logical hierarchy. This improves readability and makes it easier to quickly understand the contents of an email. Basically, this applies the more general question of "why to use formatting in a text" to emails.
+- 2: Using HTML formatting can help to make sure that the "what you see is what you get" assumption holds true. This means that what the sender wants the recipient to see and what the recipient actually sees is as similar to each other as possible.
 
 Note:
-There is a difference between (a) using or not using formatting such as bold or italics and (b) which format the email is sent in, independent of using bold, italics, etc.
+Always try to understand whether the word "formatting" refers to (a) using or not using formatting such as bold or italics and (b) which format the email is sent in, independent of using bold, italics, etc.
+
 An email that is sent as plain text cannot use formatting like bold.
-An email that is sent as HTML can use formating like bold, but is does not have to. Even when not using bold formatting, sending in HTML format has the benefit of avoiding the line break issue.
+An email that is sent as HTML can use formating like bold, but is does not have to. Even when not using bold formatting, sending an email as HTML format has the benefit of avoiding the line break issue.
 
 Links:
 - https://kb.mozillazine.org/Mail_content_types
 - https://useplaintext.email/ (when sending to tech/IT people)
 
-### HTML paragraph line spacing
-todo
+### HTML format (general settings)
+Tags: HTML paragraph line spacing, single line spacing, double line spacing
+- Go to the Menu bar, click on `Tools`, click on `Settings`.
+- Click on `Composition`.
+- In the section `HTML Style`, set these settings:
+  - Font: `Variable Width` (Tag: font name).
+  - Size: `Medium` (Tag: font size).
+  - Activate/Set the checkmark for `Use reader's default colors` (Tag: font color).
+  - Deactivate/Uncheck the checkmark for `Use Paragraph format instead of Body Text by default` (Tag: paragraph, body text, line spacing).
+
+### Sending format (general settings)
+- Go to the Menu bar, click on `Tools`, click on `Settings`.
+- Click on `Composition`.
+- Regarding the section `Sending Format`:
+  - The default setting is `Automatic`. When this setting is active and a message is composed without any formatting, it will be sent in a plain text format only. Recipients who use Microsoft Outlook might see strange line breaks in the email body text that were not intended to be there by the sender.
+  - To fix this problem, select the setting `Both HTML and Plain Text` or `Only HTML`. When the setting `Both HTML and Plain Text` is active, recipients with Microsoft email clients will most likely see the HTML formatted email by default.
+
+### Default email format: HTML or plain text (account settings per email address)
+- Go to the Menu bar, click on `Tools`, click on `Account Settings`.
+- Select the email address that you want to configure (in the left pane).
+- Within that email address, go to `Composition & Addressing`.
+- In the section `Composition`, check or uncheck the checkmark `Compose messages in HTML format`.
+  - If the checkmark is checked, the default email format will be HTML. If you want to send a single email in plain text format, you can hold `Shift` while clicking on `New Message`.
+  - If the checkmark is unchecked, the default email format will be plain text. If you want to send a single email in HTML format, you can hold `Shift` while clicking on `New Message`.
+
+### Plain text: format flowed
+Tag: format=flowed, format-flowed
+
+(better ignore this section)
+
+When sending emails in a plain text format, using `format=flowed` can sometimes help to avoid issues, but sometimes it can also cause issues.
+
+In the default configuration of Thunderbird, the value `mailnews.send_plaintext_flowed` is set to `true`.
+
+It is possible to edit this in the Config Editor:
+```
+Set
+mailnews.send_plaintext_flowed
+to false.
+
+```
+
+Links:
+- https://www.fastmail.com/blog/format-flowed/
+- https://wiki.openstack.org/wiki/MailingListEtiquette#Thunderbird
+- https://joeclark.org/ffaq.html
 
 ## Addons
-Tags: addons, add-ons
+Tags: addons, add-ons, plugins, extensions
 
 Add-ons for Mozilla Thunderbird
 - https://addons.thunderbird.net/en-US/thunderbird/addon/xpunge/
