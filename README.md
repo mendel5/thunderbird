@@ -182,7 +182,7 @@ Links:
 - https://kb.mozillazine.org/Mail_content_types
 - https://useplaintext.email/ (when sending to tech/IT people)
 
-### HTML format (general settings)
+### Settings for HTML format (general settings)
 Tags: HTML paragraph line spacing, single line spacing, double line spacing
 - Go to the Menu bar, click on `Tools`, click on `Settings`.
 - Click on `Composition`.
@@ -199,7 +199,7 @@ Tags: HTML paragraph line spacing, single line spacing, double line spacing
   - The default setting is `Automatic`. When this setting is active and a message is composed without any formatting, it will be sent in a plain text format only. Recipients who use Microsoft Outlook might see strange line breaks in the email body text that were not intended to be there by the sender.
   - To fix this problem, select the setting `Both HTML and Plain Text` or `Only HTML`. When the setting `Both HTML and Plain Text` is active, recipients with Microsoft email clients will most likely see the HTML formatted email by default.
 
-### Default email format: HTML or plain text (account settings per email address)
+### Default format when writing a new email: HTML or plain text (account settings per email address)
 - Go to the Menu bar, click on `Tools`, click on `Account Settings`.
 - Select the email address that you want to configure (in the left pane).
 - Within that email address, go to `Composition & Addressing`.
