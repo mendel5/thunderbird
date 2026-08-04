@@ -147,7 +147,9 @@ Examples:
 - Instead of giving a folder the name `Emails from Mr. John Doe` it should be named `Emails from Mr John Doe`.
 - Instead of giving a folder the name `Invoices, receipts, etc.` it should be named `Invoices, receipts, etc`.
 
-## Formatting: Plain text and HTML
+## Formatting, font sizes, etc.
+Formerly: *Formatting: Plain text and HTML*
+
 ### Introduction
 Should emails be sent in a plain text format or in an HTML format?
 The answer depends on who the recipient is.
