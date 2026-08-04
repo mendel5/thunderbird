@@ -156,9 +156,9 @@ The answer depends on who the recipient is.
 - When communicating in a business context, it is generally preferred to send emails in an HTML format. Many business people use email clients from Microsoft (Microsoft Outlook, Microsoft 365 on the web) and when sending to these recipients/email clients, it is preferred to send emails in an HTML format.
 - When communicating with tech/IT people who might read emails in their terminal or who are unlikely to use Microsoft email clients, it is preferred to send emails in a plain text format.
 
-Sending emails in a plain text format can lead to issues with line breaks after 78-80 characters in Outlook, Gmail and other email clients (the 80 characters limit per line comes from RFC 2822).
+Sending emails in a plain text format can lead to issues with line breaks after 78-80 characters per line in Outlook, Gmail and other email clients (the 80 characters limit per line comes from RFC 2822).
 For example, when you write a plain text email in your email client, there might be no line breaks being shown after 80 characters per line, but the recipient might still see the line breaks.
-This is very annoying, because it breaks the assumption of "what you see is what you get" where it is expected that sender and recipient should see the same thing.
+This is very annoying, because it breaks the assumption of "what you see is what you get" where it is expected that the sender and the recipient should see the same thing.
 
 Therefore, using HTML formatting in emails can have some advantages.
 HTML not only avoids the line break issue, it also allows the sender to use different formatting options, for example bold, underline, italics or different font sizes.
