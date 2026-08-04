@@ -156,9 +156,9 @@ The answer depends on who the recipient is.
 - When communicating in a business context, it is generally preferred to send emails in an HTML format. Many business people use email clients from Microsoft (Microsoft Outlook, Microsoft 365 on the web) and when sending to these recipients/email clients, it is preferred to send emails in an HTML format.
 - When communicating with tech/IT people who might read emails in their terminal or who are unlikely to use Microsoft email clients, it is preferred to send emails in a plain text format.
 
-Sending emails in a plain text format can lead to issues with line breaks after 78-80 characters per line in Outlook, Gmail and other email clients (the 80 characters limit per line comes from RFC 2822).
+Sending emails in a plain text format can lead to issues with line breaks after 78-80 characters per line in Outlook, Gmail and other email clients (the limit of 78 characters per line comes from RFC 2822, section 2.1.1., Line Length Limits).
 For example, when you write a plain text email in your email client, there might be no line breaks being shown after 80 characters per line, but the recipient might still see the line breaks.
-This is very annoying, because it breaks the assumption of "what you see is what you get" where it is expected that the sender and the recipient should see the same thing.
+This is very annoying, because it breaks the assumption of "what you see is what you get" where it is expected that the sender and the recipient will see the same thing.
 
 Therefore, using HTML formatting in emails can have some advantages.
 HTML not only avoids the line break issue, it also allows the sender to use different formatting options, for example bold, underline, italics or different font sizes.
@@ -170,7 +170,7 @@ Typical sections could be: Introduction, Main part (part A, part B, part C, etc.
 
 **Summary**:
 - 1: Using HTML formatting (like bold) in emails provides the reader with a visual structure and logical hierarchy. This improves readability and makes it easier to quickly understand the contents of an email. Basically, this applies the more general question of "why to use formatting in a text" to emails.
-- 2: Using the HTML sending format can help to make sure that the "what you see is what you get" assumption holds true. This means that what the sender wants the recipient to see and what the recipient actually sees is as similar to each other as possible.
+- 2: Using the HTML sending format can help to make sure that the "what you see is what you get" assumption holds true. This means that what the sender wants the recipient to see and what the recipient actually sees is as similar as possible.
 
 Note:
 Always try to understand whether the word "formatting" refers to (a) using or not using formatting such as bold or italics and (b) which format the email is sent in, independent of using bold, italics, etc.
@@ -182,7 +182,7 @@ Links:
 - https://kb.mozillazine.org/Mail_content_types
 - https://useplaintext.email/ (when sending to tech/IT people)
 
-### Settings for HTML format (general settings)
+### Settings for the HTML format (general settings)
 Tags: HTML paragraph line spacing, single line spacing, double line spacing
 - Go to the Menu bar, click on `Tools`, click on `Settings`.
 - Click on `Composition`.
@@ -207,12 +207,12 @@ Tags: HTML paragraph line spacing, single line spacing, double line spacing
   - If the checkmark is checked, the default email format will be HTML. If you want to send a single email in plain text format, you can hold `Shift` while clicking on `New Message`.
   - If the checkmark is unchecked, the default email format will be plain text. If you want to send a single email in HTML format, you can hold `Shift` while clicking on `New Message`.
 
-### Plain text: format flowed
+### Plain text: format flowed (ignore)
 Tag: format=flowed, format-flowed
 
 (better ignore this section)
 
-When sending emails in a plain text format, using `format=flowed` can sometimes help to avoid issues, but sometimes it can also cause issues.
+When sending emails in a plain text format, using `format=flowed` can sometimes help to avoid issues, but sometimes it can also cause more issues.
 
 In the default configuration of Thunderbird, the value `mailnews.send_plaintext_flowed` is set to `true`.
 
