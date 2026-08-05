@@ -207,7 +207,7 @@ Tags: HTML paragraph line spacing, single line spacing, double line spacing
   - If the checkmark is checked, the default email format will be HTML. If you want to send a single email in plain text format, you can hold `Shift` while clicking on `New Message`.
   - If the checkmark is unchecked, the default email format will be plain text. If you want to send a single email in HTML format, you can hold `Shift` while clicking on `New Message`.
 
-### Plain text: format flowed (ignore)
+### Plain text: format flowed (ignore this section)
 Tag: format=flowed, format-flowed
 
 (better ignore this section)
