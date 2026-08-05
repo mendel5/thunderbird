@@ -207,6 +207,25 @@ Tags: HTML paragraph line spacing, single line spacing, double line spacing
   - If the checkmark is checked, the default email format will be HTML. If you want to send a single email in plain text format, you can hold `Shift` while clicking on `New Message`.
   - If the checkmark is unchecked, the default email format will be plain text. If you want to send a single email in HTML format, you can hold `Shift` while clicking on `New Message`.
 
+### Local font type and font size (not visible to the recipient)
+Tags: Font size, display size, font type, font name
+
+How to change the local font:
+- Go to the Menu bar, click on `Tools`, click on `Settings`.
+- Click on `General`.
+- In the section `Language & Fonts` you can select a font type/name and font size for how text is displayed to you in Thunderbird. This does not apply to the sender. The default font seems to be `Calibri`.
+
+With the settings above, it is possible to change the local font type and font size in Thunderbird.
+However, this setting only changes how Thunderbird displays the font on the local device.
+It does not change the font type and font size that the recipient will see.
+
+This fact can be very confusing because when writing a new email, Thunderbird will display the text of this new email as using the font type and font size that has been configured in the setting described above.
+Therefore, a user might think something like this: "I am seeing my newly composed email with this specific font type and font size, so when the recipient receives this email, it will look exactly the same way to the recipient".
+**But this is wrong!**
+
+The font settings in the `General` section are only about what is shown on the local device.
+Only the font settings in the section `Composition` can change what the recipient will see.
+
 ### Plain text: format flowed (ignore this section)
 Tag: format=flowed, format-flowed
 
