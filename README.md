@@ -180,6 +180,8 @@ An email that is sent as HTML can use formating like bold, but is does not have 
 
 Links:
 - https://kb.mozillazine.org/Mail_content_types
+- https://www.emailonacid.com/blog/article/email-development/paragraphs-in-html-email/
+- https://www.emailonacid.com/blog/article/email-development/spacing-techniques-in-html-email/
 - https://useplaintext.email/ (when sending to tech/IT people)
 
 ### Settings for the HTML format (general settings)
